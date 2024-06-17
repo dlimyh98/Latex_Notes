@@ -1,0 +1,903 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.20)  29 APR 2024 02:47
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/Damien/Latex_Notes/EE4218/L7/main
+(c:/Users/Damien/Latex_Notes/EE4218/L7/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+(c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (c:/texlive/2024/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count196
+\calc@Bcount=\count197
+\calc@Adimen=\dimen143
+\calc@Bdimen=\dimen144
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count198
+\calc@Cskip=\skip52
+) (c:/texlive/2024/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen145
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen146
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count199
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count266
+\leftroot@=\count267
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count268
+\DOTSCASE@=\count269
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count270
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count271
+\dotsspace@=\muskip16
+\c@parentequation=\count272
+\dspbrk@lvl=\count273
+\tag@help=\toks21
+\row@=\count274
+\column@=\count275
+\maxfields@=\count276
+\andhelp@=\toks22
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks23
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\g_MT_multlinerow_int=\count277
+\l_MT_multwidth_dim=\dimen154
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen155
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen156
+\l_MT_above_intertext_sep=\dimen157
+\l_MT_below_intertext_sep=\dimen158
+\l_MT_above_shortintertext_sep=\dimen159
+\l_MT_below_shortintertext_sep=\dimen160
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen161
+) (c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (c:/texlive/2024/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip57
+\thanksmargin=\skip58
+\droptitle=\skip59
+) (c:/texlive/2024/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen162
+\captionmargin=\dimen163
+\caption@leftmargin=\dimen164
+\caption@rightmargin=\dimen165
+\caption@width=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count278
+\c@continuedfloat=\count279
+)
+\c@KVtest=\count280
+\sf@farskip=\skip60
+\sf@captopadj=\dimen170
+\sf@capskip=\skip61
+\sf@nearskip=\skip62
+\c@subfigure=\count281
+\c@subfigure@save=\count282
+\c@lofdepth=\count283
+\c@subtable=\count284
+\c@subtable@save=\count285
+\c@lotdepth=\count286
+\sf@top=\skip63
+\sf@bottom=\skip64
+) (c:/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (c:/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen171
+\ttl@minus=\dimen172
+\ttl@toksa=\toks25
+\titlewidth=\dimen173
+\titlewidthlast=\dimen174
+\titlewidthfirst=\dimen175
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen176
+\Gm@wd@mp=\dimen177
+\Gm@odd@mp=\dimen178
+\Gm@even@mp=\dimen179
+\Gm@layoutwidth=\dimen180
+\Gm@layoutheight=\dimen181
+\Gm@layouthoffset=\dimen182
+\Gm@layoutvoffset=\dimen183
+\Gm@dimlist=\toks26
+) (c:/texlive/2024/texmf-dist/tex/latex/eqparbox/eqparbox.sty
+Package: eqparbox 2017/09/03 v4.1 Create equal-widthed boxes
+\eqp@tempdima=\skip67
+\eqp@tempdimb=\skip68
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen184
+\ar@mcellbox=\box55
+\extrarowheight=\dimen185
+\NC@list=\toks27
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box56
+)
+\eqp@tabular@box=\box57
+\eqp@list@box=\box58
+\eqp@list@indent=\skip71
+ (c:/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (c:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))) (c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip72
+\enit@outerparindent=\dimen186
+\enit@toks=\toks28
+\enit@inbox=\box59
+\enit@count@id=\count291
+\enitdp@description=\count292
+) (c:/texlive/2024/texmf-dist/tex/latex/oberdiek/centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box60
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen187
+\scratchbox=\box61
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen188
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks30
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 773.91498pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=773.91498pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+LaTeX Warning: No \author given.
+
+<S2/asicCellLibrary.PNG, id=1, 711.8595pt x 340.27126pt>
+File: S2/asicCellLibrary.PNG Graphic file (type png)
+<use S2/asicCellLibrary.PNG>
+Package pdftex.def Info: S2/asicCellLibrary.PNG  used on input line 72.
+(pdftex.def)             Requested size: 711.85776pt x 340.27042pt.
+[1
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./S2/asicCellLibrary.PNG>]
+<S2/4-1_mux.PNG, id=15, 636.57825pt x 334.851pt>
+File: S2/4-1_mux.PNG Graphic file (type png)
+<use S2/4-1_mux.PNG>
+Package pdftex.def Info: S2/4-1_mux.PNG  used on input line 83.
+(pdftex.def)             Requested size: 636.57669pt x 334.85017pt.
+<S2/2LUT.PNG, id=16, 331.83975pt x 196.93575pt>
+File: S2/2LUT.PNG Graphic file (type png)
+<use S2/2LUT.PNG>
+Package pdftex.def Info: S2/2LUT.PNG  used on input line 99.
+(pdftex.def)             Requested size: 331.83894pt x 196.93524pt.
+<S2/2LUT_muxView.PNG, id=17, 572.1375pt x 300.52275pt>
+File: S2/2LUT_muxView.PNG Graphic file (type png)
+<use S2/2LUT_muxView.PNG>
+Package pdftex.def Info: S2/2LUT_muxView.PNG  used on input line 105.
+(pdftex.def)             Requested size: 572.1361pt x 300.522pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 97--108
+[][][] 
+ []
+
+<S2/4LUT.PNG, id=18, 399.29175pt x 415.5525pt>
+File: S2/4LUT.PNG Graphic file (type png)
+<use S2/4LUT.PNG>
+Package pdftex.def Info: S2/4LUT.PNG  used on input line 134.
+(pdftex.def)             Requested size: 399.29077pt x 415.55148pt.
+<S2/4LUT_3LUT.PNG, id=19, 256.5585pt x 370.986pt>
+File: S2/4LUT_3LUT.PNG Graphic file (type png)
+<use S2/4LUT_3LUT.PNG>
+Package pdftex.def Info: S2/4LUT_3LUT.PNG  used on input line 139.
+(pdftex.def)             Requested size: 256.55788pt x 370.98508pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 132--142
+[][][] 
+ []
+
+[2 <./S2/4-1_mux.PNG> <./S2/2LUT.PNG> <./S2/2LUT_muxView.PNG>]
+<S2/CLB.PNG, id=31, 496.254pt x 307.1475pt>
+File: S2/CLB.PNG Graphic file (type png)
+<use S2/CLB.PNG>
+Package pdftex.def Info: S2/CLB.PNG  used on input line 148.
+(pdftex.def)             Requested size: 496.25278pt x 307.14674pt.
+<S2/muxTweak.PNG, id=32, 327.624pt x 254.1495pt>
+File: S2/muxTweak.PNG Graphic file (type png)
+<use S2/muxTweak.PNG>
+Package pdftex.def Info: S2/muxTweak.PNG  used on input line 160.
+(pdftex.def)             Requested size: 327.62318pt x 254.14888pt.
+ [3 <./S2/4LUT.PNG> <./S2/4LUT_3LUT.PNG> <./S2/CLB.PNG> <./S2/muxTweak.PNG>]
+<S2/2-1_mux.PNG, id=40, 216.81pt x 246.9225pt>
+File: S2/2-1_mux.PNG Graphic file (type png)
+<use S2/2-1_mux.PNG>
+Package pdftex.def Info: S2/2-1_mux.PNG  used on input line 172.
+(pdftex.def)             Requested size: 216.80946pt x 246.92188pt.
+<S2/nonExTruthTable.PNG, id=41, 236.082pt x 362.5545pt>
+File: S2/nonExTruthTable.PNG Graphic file (type png)
+<use S2/nonExTruthTable.PNG>
+Package pdftex.def Info: S2/nonExTruthTable.PNG  used on input line 177.
+(pdftex.def)             Requested size: 236.0814pt x 362.55362pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 170--182
+[][][] 
+ []
+
+<S2/shannonExpansion.PNG, id=42, 967.81575pt x 245.11575pt>
+File: S2/shannonExpansion.PNG Graphic file (type png)
+<use S2/shannonExpansion.PNG>
+Package pdftex.def Info: S2/shannonExpansion.PNG  used on input line 191.
+(pdftex.def)             Requested size: 967.8134pt x 245.11514pt.
+<S2/SDT_1.PNG, id=43, 318.59026pt x 244.5135pt>
+File: S2/SDT_1.PNG Graphic file (type png)
+<use S2/SDT_1.PNG>
+Package pdftex.def Info: S2/SDT_1.PNG  used on input line 205.
+(pdftex.def)             Requested size: 318.58948pt x 244.5129pt.
+[4 <./S2/2-1_mux.PNG> <./S2/nonExTruthTable.PNG> <./S2/shannonExpansion.PNG> <./S2/SDT_1.PNG>]
+<S2/SDT_2.PNG, id=51, 343.88475pt x 234.8775pt>
+File: S2/SDT_2.PNG Graphic file (type png)
+<use S2/SDT_2.PNG>
+Package pdftex.def Info: S2/SDT_2.PNG  used on input line 226.
+(pdftex.def)             Requested size: 343.88391pt x 234.87692pt.
+<S2/actel.PNG, id=52, 196.3335pt x 344.487pt>
+File: S2/actel.PNG Graphic file (type png)
+<use S2/actel.PNG>
+Package pdftex.def Info: S2/actel.PNG  used on input line 235.
+(pdftex.def)             Requested size: 196.33301pt x 344.48615pt.
+ [5 <./S2/SDT_2.PNG> <./S2/actel.PNG>]
+<S3/basePrimitives.PNG, id=58, 468.5505pt x 115.632pt>
+File: S3/basePrimitives.PNG Graphic file (type png)
+<use S3/basePrimitives.PNG>
+Package pdftex.def Info: S3/basePrimitives.PNG  used on input line 269.
+(pdftex.def)             Requested size: 468.54936pt x 115.63171pt.
+
+Overfull \hbox (8.5333pt too wide) in paragraph at lines 269--271
+ [][] 
+ []
+
+<S3/decomposedLibrary.PNG, id=59, 435.42674pt x 171.64125pt>
+File: S3/decomposedLibrary.PNG Graphic file (type png)
+<use S3/decomposedLibrary.PNG>
+Package pdftex.def Info: S3/decomposedLibrary.PNG  used on input line 275.
+(pdftex.def)             Requested size: 435.42567pt x 171.64081pt.
+
+Overfull \hbox (29.99998pt too wide) in paragraph at lines 267--279
+[][][] 
+ []
+
+<S3/nand4_matching.PNG, id=60, 584.78474pt x 254.1495pt>
+File: S3/nand4_matching.PNG Graphic file (type png)
+<use S3/nand4_matching.PNG>
+Package pdftex.def Info: S3/nand4_matching.PNG  used on input line 285.
+(pdftex.def)             Requested size: 584.78331pt x 254.14888pt.
+
+Overfull \hbox (3.59317pt too wide) in paragraph at lines 294--296
+[]\OT1/cmr/m/n/10 Reduce a \OT1/cmr/m/it/10 MIMO \OT1/cmr/m/n/10 (multi-input-multi-output) net-work into a col-lec-tion of \OT1/cmr/m/it/10 MISO \OT1/cmr/m/n/10 (multi-input-single-output) sub-networks,
+ []
+
+[6 <./S3/basePrimitives.PNG> <./S3/decomposedLibrary.PNG> <./S3/nand4_matching.PNG>]
+<S3/partitionedGraph.PNG, id=67, 850.97925pt x 437.2335pt>
+File: S3/partitionedGraph.PNG Graphic file (type png)
+<use S3/partitionedGraph.PNG>
+Package pdftex.def Info: S3/partitionedGraph.PNG  used on input line 308.
+(pdftex.def)             Requested size: 850.97717pt x 437.23242pt.
+<S4/possibleMatches.PNG, id=68, 361.95226pt x 413.1435pt>
+File: S4/possibleMatches.PNG Graphic file (type png)
+<use S4/possibleMatches.PNG>
+Package pdftex.def Info: S4/possibleMatches.PNG  used on input line 325.
+(pdftex.def)             Requested size: 361.95135pt x 413.14247pt.
+<S4/libraryCells.PNG, id=69, 222.8325pt x 187.29974pt>
+File: S4/libraryCells.PNG Graphic file (type png)
+<use S4/libraryCells.PNG>
+Package pdftex.def Info: S4/libraryCells.PNG  used on input line 331.
+(pdftex.def)             Requested size: 222.83195pt x 187.29927pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 323--335
+[][][] 
+ []
+
+[7 <./S3/partitionedGraph.PNG> <./S4/possibleMatches.PNG> <./S4/libraryCells.PNG>]
+<S4/graphChildren.PNG, id=77, 495.0495pt x 239.6955pt>
+File: S4/graphChildren.PNG Graphic file (type png)
+<use S4/graphChildren.PNG>
+Package pdftex.def Info: S4/graphChildren.PNG  used on input line 346.
+(pdftex.def)             Requested size: 495.04828pt x 239.6949pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 343--358
+[]$[]$ 
+ []
+
+<S4/matchingAlgorithm.PNG, id=78, 602.85225pt x 349.90726pt>
+File: S4/matchingAlgorithm.PNG Graphic file (type png)
+<use S4/matchingAlgorithm.PNG>
+Package pdftex.def Info: S4/matchingAlgorithm.PNG  used on input line 363.
+(pdftex.def)             Requested size: 602.85078pt x 349.90639pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+
+ []
+
+<S4/subjectGraph.PNG, id=79, 203.5605pt x 391.4625pt>
+File: S4/subjectGraph.PNG Graphic file (type png)
+<use S4/subjectGraph.PNG>
+Package pdftex.def Info: S4/subjectGraph.PNG  used on input line 371.
+(pdftex.def)             Requested size: 203.56pt x 391.46153pt.
+<S4/patternGraph.PNG, id=80, 215.00325pt x 340.27126pt>
+File: S4/patternGraph.PNG Graphic file (type png)
+<use S4/patternGraph.PNG>
+Package pdftex.def Info: S4/patternGraph.PNG  used on input line 377.
+(pdftex.def)             Requested size: 215.00272pt x 340.27042pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 369--381
+[][][] 
+ []
+
+[8 <./S4/graphChildren.PNG> <./S4/matchingAlgorithm.PNG> <./S4/subjectGraph.PNG> <./S4/patternGraph.PNG>]
+<S4/subjectPatternGraph.PNG, id=88, 454.0965pt x 210.7875pt>
+File: S4/subjectPatternGraph.PNG Graphic file (type png)
+<use S4/subjectPatternGraph.PNG>
+Package pdftex.def Info: S4/subjectPatternGraph.PNG  used on input line 385.
+(pdftex.def)             Requested size: 454.09538pt x 210.78699pt.
+
+Overfull \hbox (17.066pt too wide) in paragraph at lines 385--386
+[][] 
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 393--395
+[]\OT1/cmr/m/n/10 If we start from ver-tex $\OML/cmm/m/it/10 v[]$ \OT1/cmr/m/n/10 of the sub-
+ []
+
+
+Overfull \hbox (29.99998pt too wide) in paragraph at lines 383--397
+[][][] 
+ []
+
+<S4/problemStatement.PNG, id=89, 435.42674pt x 221.02576pt>
+File: S4/problemStatement.PNG Graphic file (type png)
+<use S4/problemStatement.PNG>
+Package pdftex.def Info: S4/problemStatement.PNG  used on input line 404.
+(pdftex.def)             Requested size: 435.42567pt x 221.0252pt.
+<S4/pattern_library.PNG, id=90, 580.569pt x 340.8735pt>
+File: S4/pattern_library.PNG Graphic file (type png)
+<use S4/pattern_library.PNG>
+Package pdftex.def Info: S4/pattern_library.PNG  used on input line 410.
+(pdftex.def)             Requested size: 580.56758pt x 340.87265pt.
+<S4/inv_pattern.PNG, id=91, 640.19176pt x 331.2375pt>
+File: S4/inv_pattern.PNG Graphic file (type png)
+<use S4/inv_pattern.PNG>
+Package pdftex.def Info: S4/inv_pattern.PNG  used on input line 416.
+(pdftex.def)             Requested size: 640.1902pt x 331.23668pt.
+<S4/nand2_pattern.PNG, id=92, 641.9985pt x 308.95425pt>
+File: S4/nand2_pattern.PNG Graphic file (type png)
+<use S4/nand2_pattern.PNG>
+Package pdftex.def Info: S4/nand2_pattern.PNG  used on input line 422.
+(pdftex.def)             Requested size: 641.99693pt x 308.95349pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 414--426
+[][][] 
+ []
+
+[9 <./S4/subjectPatternGraph.PNG> <./S4/problemStatement.PNG> <./S4/pattern_library.PNG>]
+<S4/and2_pattern.PNG, id=99, 638.98724pt x 317.988pt>
+File: S4/and2_pattern.PNG Graphic file (type png)
+<use S4/and2_pattern.PNG>
+Package pdftex.def Info: S4/and2_pattern.PNG  used on input line 430.
+(pdftex.def)             Requested size: 638.98569pt x 317.98721pt.
+<S4/or2_pattern.PNG, id=100, 635.976pt x 327.02174pt>
+File: S4/or2_pattern.PNG Graphic file (type png)
+<use S4/or2_pattern.PNG>
+Package pdftex.def Info: S4/or2_pattern.PNG  used on input line 436.
+(pdftex.def)             Requested size: 635.97444pt x 327.02094pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 428--440
+[][][] 
+ []
+
+<S4/nor2_pattern.PNG, id=101, 635.976pt x 311.36325pt>
+File: S4/nor2_pattern.PNG Graphic file (type png)
+<use S4/nor2_pattern.PNG>
+Package pdftex.def Info: S4/nor2_pattern.PNG  used on input line 444.
+(pdftex.def)             Requested size: 635.97444pt x 311.36249pt.
+<S4/nand3_pattern.PNG, id=102, 595.023pt x 293.29575pt>
+File: S4/nand3_pattern.PNG Graphic file (type png)
+<use S4/nand3_pattern.PNG>
+Package pdftex.def Info: S4/nand3_pattern.PNG  used on input line 450.
+(pdftex.def)             Requested size: 595.02155pt x 293.29501pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 442--454
+[][][] 
+ []
+
+<S4/oai21_pattern.PNG, id=103, 605.26125pt x 307.74976pt>
+File: S4/oai21_pattern.PNG Graphic file (type png)
+<use S4/oai21_pattern.PNG>
+Package pdftex.def Info: S4/oai21_pattern.PNG  used on input line 458.
+(pdftex.def)             Requested size: 605.25975pt x 307.749pt.
+<S4/aoi22_pattern.PNG, id=104, 608.2725pt x 291.489pt>
+File: S4/aoi22_pattern.PNG Graphic file (type png)
+<use S4/aoi22_pattern.PNG>
+Package pdftex.def Info: S4/aoi22_pattern.PNG  used on input line 464.
+(pdftex.def)             Requested size: 608.27103pt x 291.48828pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 456--468
+[][][] 
+ []
+
+[10 <./S4/inv_pattern.PNG> <./S4/nand2_pattern.PNG> <./S4/and2_pattern.PNG> <./S4/or2_pattern.PNG> <./S4/nor2_pattern.PNG> <./S4/nand3_pattern.PNG> <./S4/oai21_pattern.PNG> <./S4/aoi22_pattern.PNG>]
+<S4/all_pattern.PNG, id=116, 731.1315pt x 380.622pt>
+File: S4/all_pattern.PNG Graphic file (type png)
+<use S4/all_pattern.PNG>
+Package pdftex.def Info: S4/all_pattern.PNG  used on input line 472.
+(pdftex.def)             Requested size: 731.12971pt x 380.62105pt.
+
+Overfull \hbox (28.45071pt too wide) in paragraph at lines 472--473
+ [][] 
+ []
+
+<S4/notATree.PNG, id=117, 352.31625pt x 458.9145pt>
+File: S4/notATree.PNG Graphic file (type png)
+<use S4/notATree.PNG>
+Package pdftex.def Info: S4/notATree.PNG  used on input line 499.
+(pdftex.def)             Requested size: 352.31538pt x 458.91338pt.
+<S4/cantBeDescribed.PNG, id=118, 681.14474pt x 260.77425pt>
+File: S4/cantBeDescribed.PNG Graphic file (type png)
+<use S4/cantBeDescribed.PNG>
+Package pdftex.def Info: S4/cantBeDescribed.PNG  used on input line 505.
+(pdftex.def)             Requested size: 681.14308pt x 260.7736pt.
+
+Overfull \hbox (71.133pt too wide) in paragraph at lines 505--507
+ [][] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 497--509
+[][][] 
+ []
+
+<S4/xorGate.PNG, id=119, 391.4625pt x 133.09724pt>
+File: S4/xorGate.PNG Graphic file (type png)
+<use S4/xorGate.PNG>
+Package pdftex.def Info: S4/xorGate.PNG  used on input line 515.
+(pdftex.def)             Requested size: 391.46153pt x 133.09691pt.
+[11 <./S4/all_pattern.PNG> <./S4/notATree.PNG> <./S4/cantBeDescribed.PNG>]
+<S4/structural1.PNG, id=126, 224.63925pt x 312.56775pt>
+File: S4/structural1.PNG Graphic file (type png)
+<use S4/structural1.PNG>
+Package pdftex.def Info: S4/structural1.PNG  used on input line 527.
+(pdftex.def)             Requested size: 224.63869pt x 312.56697pt.
+<S4/structural2.PNG, id=127, 189.1065pt x 293.29575pt>
+File: S4/structural2.PNG Graphic file (type png)
+<use S4/structural2.PNG>
+Package pdftex.def Info: S4/structural2.PNG  used on input line 533.
+(pdftex.def)             Requested size: 189.10603pt x 293.29501pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 525--537
+[][][] 
+ []
+
+[12 <./S4/xorGate.PNG> <./S4/structural1.PNG> <./S4/structural2.PNG>]
+<S5/cluster_pattern_function.PNG, id=134, 788.9475pt x 178.266pt>
+File: S5/cluster_pattern_function.PNG Graphic file (type png)
+<use S5/cluster_pattern_function.PNG>
+Package pdftex.def Info: S5/cluster_pattern_function.PNG  used on input line 572.
+(pdftex.def)             Requested size: 788.94556pt x 178.26555pt.
+<S5/potentialConnection.PNG, id=135, 428.19975pt x 195.129pt>
+File: S5/potentialConnection.PNG Graphic file (type png)
+<use S5/potentialConnection.PNG>
+Package pdftex.def Info: S5/potentialConnection.PNG  used on input line 578.
+(pdftex.def)             Requested size: 428.1987pt x 195.12851pt.
+
+Overfull \hbox (12.80956pt too wide) in paragraph at lines 578--581
+ [][] 
+ []
+
+<S5/possibleConnection.PNG, id=136, 455.301pt x 209.583pt>
+File: S5/possibleConnection.PNG Graphic file (type png)
+<use S5/possibleConnection.PNG>
+Package pdftex.def Info: S5/possibleConnection.PNG  used on input line 585.
+(pdftex.def)             Requested size: 455.29988pt x 209.58247pt.
+
+Overfull \hbox (29.99998pt too wide) in paragraph at lines 576--589
+[][][] 
+ []
+
+[13 <./S5/cluster_pattern_function.PNG> <./S5/potentialConnection.PNG> <./S5/possibleConnection.PNG>]
+<S5/permute_cluster_library.PNG, id=144, 305.34074pt x 267.399pt>
+File: S5/permute_cluster_library.PNG Graphic file (type png)
+<use S5/permute_cluster_library.PNG>
+Package pdftex.def Info: S5/permute_cluster_library.PNG  used on input line 598.
+(pdftex.def)             Requested size: 305.34pt x 267.39835pt.
+<S5/permutation.PNG, id=145, 508.299pt x 128.27925pt>
+File: S5/permutation.PNG Graphic file (type png)
+<use S5/permutation.PNG>
+Package pdftex.def Info: S5/permutation.PNG  used on input line 604.
+(pdftex.def)             Requested size: 508.29774pt x 128.27893pt.
+
+Overfull \hbox (14.22795pt too wide) in paragraph at lines 604--606
+ [][] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 596--608
+[]$[]$$[]$ 
+ []
+
+<S5/inputNegate_cluster_library.PNG, id=146, 404.712pt x 349.305pt>
+File: S5/inputNegate_cluster_library.PNG Graphic file (type png)
+<use S5/inputNegate_cluster_library.PNG>
+Package pdftex.def Info: S5/inputNegate_cluster_library.PNG  used on input line 635.
+(pdftex.def)             Requested size: 404.71101pt x 349.30414pt.
+<S5/inputNegation.PNG, id=147, 755.82375pt x 165.0165pt>
+File: S5/inputNegation.PNG Graphic file (type png)
+<use S5/inputNegation.PNG>
+Package pdftex.def Info: S5/inputNegation.PNG  used on input line 641.
+(pdftex.def)             Requested size: 755.8219pt x 165.01607pt.
+
+Overfull \hbox (14.22765pt too wide) in paragraph at lines 641--643
+ [][] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 633--645
+[]$[]$$[]$ 
+ []
+
+[14 <./S5/permute_cluster_library.PNG> <./S5/permutation.PNG> <./S5/inputNegate_cluster_library.PNG> <./S5/inputNegation.PNG>] [15]
+<S5/signatureFlow.PNG, id=158, 672.71326pt x 386.04225pt>
+File: S5/signatureFlow.PNG Graphic file (type png)
+<use S5/signatureFlow.PNG>
+Package pdftex.def Info: S5/signatureFlow.PNG  used on input line 737.
+(pdftex.def)             Requested size: 672.71161pt x 386.0413pt.
+File: S4/pattern_library.PNG Graphic file (type png)
+<use S4/pattern_library.PNG>
+Package pdftex.def Info: S4/pattern_library.PNG  used on input line 755.
+(pdftex.def)             Requested size: 580.56758pt x 340.87265pt.
+<S6/subject_noFanOut.PNG, id=159, 664.884pt x 320.99925pt>
+File: S6/subject_noFanOut.PNG Graphic file (type png)
+<use S6/subject_noFanOut.PNG>
+Package pdftex.def Info: S6/subject_noFanOut.PNG  used on input line 761.
+(pdftex.def)             Requested size: 664.88239pt x 320.99846pt.
+
+Overfull \hbox (14.22374pt too wide) in paragraph at lines 761--763
+ [][] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 753--765
+$[]$$[]$ 
+ []
+
+[16 <./S5/signatureFlow.PNG>]
+<S6/trivialCovering.PNG, id=164, 650.43pt x 327.02174pt>
+File: S6/trivialCovering.PNG Graphic file (type png)
+<use S6/trivialCovering.PNG>
+Package pdftex.def Info: S6/trivialCovering.PNG  used on input line 775.
+(pdftex.def)             Requested size: 650.4284pt x 327.02094pt.
+<S6/betterCovering.PNG, id=165, 629.9535pt x 341.47575pt>
+File: S6/betterCovering.PNG Graphic file (type png)
+<use S6/betterCovering.PNG>
+Package pdftex.def Info: S6/betterCovering.PNG  used on input line 781.
+(pdftex.def)             Requested size: 629.95197pt x 341.47491pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 773--785
+[]$[]$$[]$ 
+ []
+
+<S6/evenBetter.PNG, id=166, 637.1805pt x 351.11176pt>
+File: S6/evenBetter.PNG Graphic file (type png)
+<use S6/evenBetter.PNG>
+Package pdftex.def Info: S6/evenBetter.PNG  used on input line 788.
+(pdftex.def)             Requested size: 637.17894pt x 351.11089pt.
+[17 <./S6/subject_noFanOut.PNG> <./S6/trivialCovering.PNG> <./S6/betterCovering.PNG> <./S6/evenBetter.PNG>]
+File: S4/xorGate.PNG Graphic file (type png)
+<use S4/xorGate.PNG>
+Package pdftex.def Info: S4/xorGate.PNG  used on input line 797.
+(pdftex.def)             Requested size: 391.46153pt x 133.09691pt.
+
+Overfull \hbox (42.696pt too wide) in paragraph at lines 797--799
+ [][] 
+ []
+
+<S6/xor_dag.PNG, id=174, 227.04825pt x 149.96025pt>
+File: S6/xor_dag.PNG Graphic file (type png)
+<use S6/xor_dag.PNG>
+Package pdftex.def Info: S6/xor_dag.PNG  used on input line 803.
+(pdftex.def)             Requested size: 227.04768pt x 149.95987pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 795--807
+$[]$$[]$ 
+ []
+
+File: S3/partitionedGraph.PNG Graphic file (type png)
+<use S3/partitionedGraph.PNG>
+Package pdftex.def Info: S3/partitionedGraph.PNG  used on input line 816.
+(pdftex.def)             Requested size: 850.97717pt x 437.23242pt.
+<S6/fanout.PNG, id=175, 539.01375pt x 218.0145pt>
+File: S6/fanout.PNG Graphic file (type png)
+<use S6/fanout.PNG>
+Package pdftex.def Info: S6/fanout.PNG  used on input line 830.
+(pdftex.def)             Requested size: 539.01242pt x 218.01395pt.
+<S6/brokenDAG.PNG, id=176, 550.4565pt x 275.8305pt>
+File: S6/brokenDAG.PNG Graphic file (type png)
+<use S6/brokenDAG.PNG>
+Package pdftex.def Info: S6/brokenDAG.PNG  used on input line 836.
+(pdftex.def)             Requested size: 550.45515pt x 275.82982pt.
+
+Overfull \hbox (14.23277pt too wide) in paragraph at lines 836--837
+ [][] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 828--839
+[][][] 
+ []
+
+[18 <./S6/xor_dag.PNG> <./S6/fanout.PNG> <./S6/brokenDAG.PNG>]
+<S6/dp_start.PNG, id=183, 662.475pt x 399.29175pt>
+File: S6/dp_start.PNG Graphic file (type png)
+<use S6/dp_start.PNG>
+Package pdftex.def Info: S6/dp_start.PNG  used on input line 855.
+(pdftex.def)             Requested size: 662.47339pt x 399.29077pt.
+<S6/dp.PNG, id=184, 458.31226pt x 216.20775pt>
+File: S6/dp.PNG Graphic file (type png)
+<use S6/dp.PNG>
+Package pdftex.def Info: S6/dp.PNG  used on input line 861.
+(pdftex.def)             Requested size: 458.31113pt x 216.20721pt.
+ [19 <./S6/dp_start.PNG> <./S6/dp.PNG>]
+<S7/nandTruth.PNG, id=191, 275.8305pt x 133.09724pt>
+File: S7/nandTruth.PNG Graphic file (type png)
+<use S7/nandTruth.PNG>
+Package pdftex.def Info: S7/nandTruth.PNG  used on input line 881.
+(pdftex.def)             Requested size: 275.82982pt x 133.09691pt.
+<S7/lutTruth1.PNG, id=192, 167.4255pt x 379.4175pt>
+File: S7/lutTruth1.PNG Graphic file (type png)
+<use S7/lutTruth1.PNG>
+Package pdftex.def Info: S7/lutTruth1.PNG  used on input line 889.
+(pdftex.def)             Requested size: 167.42508pt x 379.41656pt.
+<S7/lutmask.PNG, id=193, 370.38374pt x 388.45125pt>
+File: S7/lutmask.PNG Graphic file (type png)
+<use S7/lutmask.PNG>
+Package pdftex.def Info: S7/lutmask.PNG  used on input line 894.
+(pdftex.def)             Requested size: 370.38283pt x 388.45029pt.
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 887--897
+[]$[]$$[]$ 
+ []
+
+[20 <./S7/nandTruth.PNG> <./S7/lutTruth1.PNG> <./S7/lutmask.PNG>]
+<S7/fpgaMapping.PNG, id=201, 550.4565pt x 437.2335pt>
+File: S7/fpgaMapping.PNG Graphic file (type png)
+<use S7/fpgaMapping.PNG>
+Package pdftex.def Info: S7/fpgaMapping.PNG  used on input line 911.
+(pdftex.def)             Requested size: 550.45515pt x 437.23242pt.
+ [21 <./S7/fpgaMapping.PNG>]
+<S7/binPacked.PNG, id=206, 526.96875pt x 193.32225pt>
+File: S7/binPacked.PNG Graphic file (type png)
+<use S7/binPacked.PNG>
+Package pdftex.def Info: S7/binPacked.PNG  used on input line 973.
+(pdftex.def)             Requested size: 526.96745pt x 193.32178pt.
+<S7/logicBlock.PNG, id=207, 707.0415pt x 369.7815pt>
+File: S7/logicBlock.PNG Graphic file (type png)
+<use S7/logicBlock.PNG>
+Package pdftex.def Info: S7/logicBlock.PNG  used on input line 982.
+(pdftex.def)             Requested size: 707.03976pt x 369.78058pt.
+ [22 <./S7/binPacked.PNG> <./S7/logicBlock.PNG>] [23] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 7367 strings out of 474103
+ 124761 string characters out of 5747481
+ 1941496 words of memory out of 5000000
+ 29659 multiletter control sequences out of 15000+600000
+ 564133 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,12n,79p,1227b,376s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (23 pages, 2238675 bytes).
+PDF statistics:
+ 268 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+

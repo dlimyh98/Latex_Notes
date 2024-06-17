@@ -1,0 +1,72 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}Modelling Synchronous Circuits}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}State-based Model (ie. Behavioral Modelling)}{1}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Example of State-based modelling of a Moore machine}}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Structural Modelling}{1}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Generic structural model}}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}State Machine Optimization}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Bistable element used in latches}}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Optimization flow}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}State Encoding}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Non-uniqueness of Structural models}}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering State Encoding 1}}}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering State Encoding 2}}}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}State Minimization}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}What's the deal with don't-cares?}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Hardware implementation is simplified, if we set X=0}}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}State Minimization - Completely specified FSMs}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.3.2.1}Concept of \textit  {equivalent} states}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.3.2.2}Algorithm for State Minimization of CS-FSMs}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Perform state minimization on this completely-specified state model}}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.3}State Minimization - Incompletely specified FSMs}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.3.3.1}Concept of \textit  {compatible} states}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Propagation of 'X' from FSM\_A to FSM\_B}}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.3.3.2}Algorithm for State Minimization of IS-FSMs}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Perform state minimization on this incompletely-specified state-based model}}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.3.3.3}Important difference between Equivalence and Compatible}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.3.3.4}Compatibility and Implications}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.4}Formal definition of the State Minimization problem}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}State Encoding (Revisited)}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.1}How many possible ways are there to do State Encoding?}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2}Optimal state encoding}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.4.2.1}One-Hot Encoding}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Sequential Encoding saves on FFs, but has more combinational delay}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering Sequential Encoding to determine state $S_{1}$}}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering 3AND is formed from 2 2AND}}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces One-Hot Encoding to determine state $S_{2}$; Splurges on FFs, but less combinational delay}}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.3}Heuristics for State Minimization}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Showing why adjacent codes result in better K-Map simplification}}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering Truth table for some FSM}}}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering K-Map, notice that the adjacent codes in the FSM are located side-by-side and allowing for greater 'clustering'}}}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}State Extraction}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}State Extraction Algorithm}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Retiming}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.1}Synchronous Network Graph (SNG)}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces SNG derived from a structural model}}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.2}Basic concept of Retiming}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Register Retiming for different optimization targets}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering Reduced register count}}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering Reduced critical path delay}}}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.3}Retiming on the SNG}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Backward Retiming (remove register from output, insert registers at input)}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering Original}}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering Backward-retimed}}}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.6.3.1}Retiming assumptions}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Breaking of combinational feedback loop using registers}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering Combinational feedback loop}}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering Broken combinational feedback loop}}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Vertex fan-out}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering Input vertex has fanout of 2}}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering Input vertex has fanout of 1 }}}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.6.3.2}Retiming on SNG}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Retiming on SNG}}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {\centering Original; Critical delay=24}}}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {\centering Retimed; Critical delay=13}}}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.6.3.3}Relaxation-based retiming}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.6.3.4}Relaxation retiming on SNG}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Iteration $\Phi _{1}$}}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Iteration $\Phi _{2}$}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Iteration $\Phi _{3}$; Convergence}}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.6.3.5}Retiming for minimal area}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Retiming for minimal area}}{12}{}\protected@file@percent }
+\gdef \@abspage@last{12}

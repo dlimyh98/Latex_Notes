@@ -1,0 +1,685 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.20)  29 APR 2024 21:36
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/Damien/Latex_Notes/EE4218/L4/main
+(c:/Users/Damien/Latex_Notes/EE4218/L4/main.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+(c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+) (c:/texlive/2024/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count196
+\calc@Bcount=\count197
+\calc@Adimen=\dimen143
+\calc@Bdimen=\dimen144
+\calc@Askip=\skip50
+\calc@Bskip=\skip51
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count198
+\calc@Cskip=\skip52
+) (c:/texlive/2024/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen145
+)) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen146
+) (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count199
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count266
+\leftroot@=\count267
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count268
+\DOTSCASE@=\count269
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count270
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count271
+\dotsspace@=\muskip16
+\c@parentequation=\count272
+\dspbrk@lvl=\count273
+\tag@help=\toks21
+\row@=\count274
+\column@=\count275
+\maxfields@=\count276
+\andhelp@=\toks22
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks23
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\g_MT_multlinerow_int=\count277
+\l_MT_multwidth_dim=\dimen154
+\origjot=\skip56
+\l_MT_shortvdotswithinadjustabove_dim=\dimen155
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen156
+\l_MT_above_intertext_sep=\dimen157
+\l_MT_below_intertext_sep=\dimen158
+\l_MT_above_shortintertext_sep=\dimen159
+\l_MT_below_shortintertext_sep=\dimen160
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen161
+) (c:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (c:/texlive/2024/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip57
+\thanksmargin=\skip58
+\droptitle=\skip59
+) (c:/texlive/2024/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen162
+\captionmargin=\dimen163
+\caption@leftmargin=\dimen164
+\caption@rightmargin=\dimen165
+\caption@width=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count278
+\c@continuedfloat=\count279
+)
+\c@KVtest=\count280
+\sf@farskip=\skip60
+\sf@captopadj=\dimen170
+\sf@capskip=\skip61
+\sf@nearskip=\skip62
+\c@subfigure=\count281
+\c@subfigure@save=\count282
+\c@lofdepth=\count283
+\c@subtable=\count284
+\c@subtable@save=\count285
+\c@lotdepth=\count286
+\sf@top=\skip63
+\sf@bottom=\skip64
+) (c:/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (c:/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip65
+\aftertitleunit=\skip66
+\ttl@plus=\dimen171
+\ttl@minus=\dimen172
+\ttl@toksa=\toks25
+\titlewidth=\dimen173
+\titlewidthlast=\dimen174
+\titlewidthfirst=\dimen175
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count288
+\Gm@cntv=\count289
+\c@Gm@tempcnt=\count290
+\Gm@bindingoffset=\dimen176
+\Gm@wd@mp=\dimen177
+\Gm@odd@mp=\dimen178
+\Gm@even@mp=\dimen179
+\Gm@layoutwidth=\dimen180
+\Gm@layoutheight=\dimen181
+\Gm@layouthoffset=\dimen182
+\Gm@layoutvoffset=\dimen183
+\Gm@dimlist=\toks26
+) (c:/texlive/2024/texmf-dist/tex/latex/eqparbox/eqparbox.sty
+Package: eqparbox 2017/09/03 v4.1 Create equal-widthed boxes
+\eqp@tempdima=\skip67
+\eqp@tempdimb=\skip68
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen184
+\ar@mcellbox=\box55
+\extrarowheight=\dimen185
+\NC@list=\toks27
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box56
+)
+\eqp@tabular@box=\box57
+\eqp@list@box=\box58
+\eqp@list@indent=\skip71
+ (c:/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (c:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count291
+\l__pdf_internal_box=\box59
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count292
+\scratchdimen=\dimen186
+\scratchbox=\box60
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen187
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks29
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 773.91498pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=540.60239pt
+* \textheight=773.91498pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+LaTeX Warning: No \author given.
+
+<S1/modulesNetsRelations.PNG, id=1, 246.32025pt x 208.98074pt>
+File: S1/modulesNetsRelations.PNG Graphic file (type png)
+<use S1/modulesNetsRelations.PNG>
+Package pdftex.def Info: S1/modulesNetsRelations.PNG  used on input line 36.
+(pdftex.def)             Requested size: 246.31964pt x 208.98022pt.
+<S1/hypergraph.PNG, id=3, 349.305pt x 340.8735pt>
+File: S1/hypergraph.PNG Graphic file (type png)
+<use S1/hypergraph.PNG>
+Package pdftex.def Info: S1/hypergraph.PNG  used on input line 50.
+(pdftex.def)             Requested size: 142.26378pt x 138.82799pt.
+<S1/bipartiteGraph.PNG, id=4, 231.86626pt x 301.125pt>
+File: S1/bipartiteGraph.PNG Graphic file (type png)
+<use S1/bipartiteGraph.PNG>
+Package pdftex.def Info: S1/bipartiteGraph.PNG  used on input line 52.
+(pdftex.def)             Requested size: 142.26378pt x 184.76115pt.
+<S1/incidenceMatrix.PNG, id=5, 330.033pt x 203.5605pt>
+File: S1/incidenceMatrix.PNG Graphic file (type png)
+<use S1/incidenceMatrix.PNG>
+Package pdftex.def Info: S1/incidenceMatrix.PNG  used on input line 73.
+(pdftex.def)             Requested size: 330.03218pt x 203.56pt.
+[1
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./S1/modulesNetsRelations.PNG> <./S1/hypergraph.PNG> <./S1/bipartiteGraph.PNG>]
+<S1/hierarchy.PNG, id=25, 328.22626pt x 288.47775pt>
+File: S1/hierarchy.PNG Graphic file (type png)
+<use S1/hierarchy.PNG>
+Package pdftex.def Info: S1/hierarchy.PNG  used on input line 104.
+(pdftex.def)             Requested size: 328.22545pt x 288.47704pt.
+<S1/logicNetwork.PNG, id=26, 539.01375pt x 250.536pt>
+File: S1/logicNetwork.PNG Graphic file (type png)
+<use S1/logicNetwork.PNG>
+Package pdftex.def Info: S1/logicNetwork.PNG  used on input line 120.
+(pdftex.def)             Requested size: 170.71652pt x 79.35123pt.
+<S1/logicNetworkGraph.PNG, id=27, 459.51675pt x 278.2395pt>
+File: S1/logicNetworkGraph.PNG Graphic file (type png)
+<use S1/logicNetworkGraph.PNG>
+Package pdftex.def Info: S1/logicNetworkGraph.PNG  used on input line 122.
+(pdftex.def)             Requested size: 142.26378pt x 86.13872pt.
+ [2 <./S1/incidenceMatrix.PNG> <./S1/hierarchy.PNG> <./S1/logicNetwork.PNG> <./S1/logicNetworkGraph.PNG>]
+<S1/syncNetwork.PNG, id=35, 916.6245pt x 407.121pt>
+File: S1/syncNetwork.PNG Graphic file (type png)
+<use S1/syncNetwork.PNG>
+Package pdftex.def Info: S1/syncNetwork.PNG  used on input line 140.
+(pdftex.def)             Requested size: 916.62225pt x 407.12001pt.
+<S1/FSM_table.PNG, id=36, 222.8325pt x 143.3355pt>
+File: S1/FSM_table.PNG Graphic file (type png)
+<use S1/FSM_table.PNG>
+Package pdftex.def Info: S1/FSM_table.PNG  used on input line 162.
+(pdftex.def)             Requested size: 170.71652pt x 109.81313pt.
+<S1/FSM_diagram.PNG, id=37, 266.79675pt x 104.7915pt>
+File: S1/FSM_diagram.PNG Graphic file (type png)
+<use S1/FSM_diagram.PNG>
+Package pdftex.def Info: S1/FSM_diagram.PNG  used on input line 164.
+(pdftex.def)             Requested size: 170.71652pt x 67.05673pt.
+ [3 <./S1/syncNetwork.PNG> <./S1/FSM_table.PNG> <./S1/FSM_diagram.PNG>]
+<S1/dataFlowGraph.PNG, id=44, 667.89525pt x 364.9635pt>
+File: S1/dataFlowGraph.PNG Graphic file (type png)
+<use S1/dataFlowGraph.PNG>
+Package pdftex.def Info: S1/dataFlowGraph.PNG  used on input line 176.
+(pdftex.def)             Requested size: 667.89362pt x 364.9626pt.
+<S1/sequencingGraph.PNG, id=45, 436.029pt x 385.44pt>
+File: S1/sequencingGraph.PNG Graphic file (type png)
+<use S1/sequencingGraph.PNG>
+Package pdftex.def Info: S1/sequencingGraph.PNG  used on input line 192.
+(pdftex.def)             Requested size: 436.02792pt x 385.43906pt.
+ [4 <./S1/dataFlowGraph.PNG> <./S1/sequencingGraph.PNG>]
+<S1/sequencing_hierarchy.PNG, id=51, 465.53925pt x 324.61275pt>
+File: S1/sequencing_hierarchy.PNG Graphic file (type png)
+<use S1/sequencing_hierarchy.PNG>
+Package pdftex.def Info: S1/sequencing_hierarchy.PNG  used on input line 211.
+(pdftex.def)             Requested size: 465.5381pt x 324.61194pt.
+<S1/sequencing_branching.PNG, id=52, 492.03825pt x 334.851pt>
+File: S1/sequencing_branching.PNG Graphic file (type png)
+<use S1/sequencing_branching.PNG>
+Package pdftex.def Info: S1/sequencing_branching.PNG  used on input line 219.
+(pdftex.def)             Requested size: 256.0748pt x 174.26657pt.
+<S1/sequencing_iteration.PNG, id=53, 524.55975pt x 338.4645pt>
+File: S1/sequencing_iteration.PNG Graphic file (type png)
+<use S1/sequencing_iteration.PNG>
+Package pdftex.def Info: S1/sequencing_iteration.PNG  used on input line 221.
+(pdftex.def)             Requested size: 256.0748pt x 165.23447pt.
+ [5 <./S1/sequencing_hierarchy.PNG> <./S1/sequencing_branching.PNG> <./S1/sequencing_iteration.PNG>]
+File: S1/sequencingGraph.PNG Graphic file (type png)
+<use S1/sequencingGraph.PNG>
+Package pdftex.def Info: S1/sequencingGraph.PNG  used on input line 273.
+(pdftex.def)             Requested size: 436.02792pt x 385.43906pt.
+ [6]
+<S2/softhardCompilation.PNG, id=63, 690.78075pt x 285.4665pt>
+File: S2/softhardCompilation.PNG Graphic file (type png)
+<use S2/softhardCompilation.PNG>
+Package pdftex.def Info: S2/softhardCompilation.PNG  used on input line 311.
+(pdftex.def)             Requested size: 256.0748pt x 105.82567pt.
+<S2/designFlow.PNG, id=64, 423.984pt x 304.13625pt>
+File: S2/designFlow.PNG Graphic file (type png)
+<use S2/designFlow.PNG>
+Package pdftex.def Info: S2/designFlow.PNG  used on input line 313.
+(pdftex.def)             Requested size: 256.0748pt x 183.69438pt.
+<S2/parseTree.PNG, id=65, 292.6935pt x 217.41225pt>
+File: S2/parseTree.PNG Graphic file (type png)
+<use S2/parseTree.PNG>
+Package pdftex.def Info: S2/parseTree.PNG  used on input line 358.
+(pdftex.def)             Requested size: 292.69278pt x 217.4117pt.
+ [7 <./S2/softhardCompilation.PNG> <./S2/designFlow.PNG>]
+<S2/treeHeightReduction.PNG, id=72, 970.22475pt x 308.352pt>
+File: S2/treeHeightReduction.PNG Graphic file (type png)
+<use S2/treeHeightReduction.PNG>
+Package pdftex.def Info: S2/treeHeightReduction.PNG  used on input line 386.
+(pdftex.def)             Requested size: 970.22238pt x 308.35124pt.
+ [8 <./S2/parseTree.PNG> <./S2/treeHeightReduction.PNG>]
+<S2/constantProp.PNG, id=78, 207.174pt x 44.5665pt>
+File: S2/constantProp.PNG Graphic file (type png)
+<use S2/constantProp.PNG>
+Package pdftex.def Info: S2/constantProp.PNG  used on input line 395.
+(pdftex.def)             Requested size: 199.16928pt x 42.84453pt.
+<S2/variableProp.PNG, id=79, 207.77625pt x 45.771pt>
+File: S2/variableProp.PNG Graphic file (type png)
+<use S2/variableProp.PNG>
+Package pdftex.def Info: S2/variableProp.PNG  used on input line 398.
+(pdftex.def)             Requested size: 199.16928pt x 43.87679pt.
+<S2/kmap.png, id=80, 393.8715pt x 187.29974pt>
+File: S2/kmap.png Graphic file (type png)
+<use S2/kmap.png>
+Package pdftex.def Info: S2/kmap.png  used on input line 405.
+(pdftex.def)             Requested size: 170.71652pt x 81.18321pt.
+<S2/arithmeticElimination.PNG, id=81, 227.6505pt x 50.589pt>
+File: S2/arithmeticElimination.PNG Graphic file (type png)
+<use S2/arithmeticElimination.PNG>
+Package pdftex.def Info: S2/arithmeticElimination.PNG  used on input line 408.
+(pdftex.def)             Requested size: 170.71652pt x 37.93779pt.
+<S2/operatorStrengthReduction.PNG, id=82, 271.61475pt x 52.998pt>
+File: S2/operatorStrengthReduction.PNG Graphic file (type png)
+<use S2/operatorStrengthReduction.PNG>
+Package pdftex.def Info: S2/operatorStrengthReduction.PNG  used on input line 417.
+(pdftex.def)             Requested size: 271.61407pt x 52.99786pt.
+<S2/8bit_AND.PNG, id=83, 722.09775pt x 99.9735pt>
+File: S2/8bit_AND.PNG Graphic file (type png)
+<use S2/8bit_AND.PNG>
+Package pdftex.def Info: S2/8bit_AND.PNG  used on input line 427.
+(pdftex.def)             Requested size: 722.096pt x 99.97324pt.
+<S2/additionCarry.PNG, id=84, 102.98476pt x 96.96225pt>
+File: S2/additionCarry.PNG Graphic file (type png)
+<use S2/additionCarry.PNG>
+Package pdftex.def Info: S2/additionCarry.PNG  used on input line 436.
+(pdftex.def)             Requested size: 102.98448pt x 96.962pt.
+ [9 <./S2/constantProp.PNG> <./S2/variableProp.PNG> <./S2/kmap.PNG> <./S2/arithmeticElimination.PNG> <./S2/operatorStrengthReduction.PNG> <./S2/8bit_AND.PNG> <./S2/additionCarry.PNG>]
+<S2/modalExpansion.PNG, id=97, 288.47775pt x 103.587pt>
+File: S2/modalExpansion.PNG Graphic file (type png)
+<use S2/modalExpansion.PNG>
+Package pdftex.def Info: S2/modalExpansion.PNG  used on input line 453.
+(pdftex.def)             Requested size: 288.47704pt x 103.58675pt.
+<S2/conditionalExpansion.PNG, id=98, 316.18124pt x 61.4295pt>
+File: S2/conditionalExpansion.PNG Graphic file (type png)
+<use S2/conditionalExpansion.PNG>
+Package pdftex.def Info: S2/conditionalExpansion.PNG  used on input line 464.
+(pdftex.def)             Requested size: 316.18047pt x 61.42934pt.
+<S2/loopExpansion.PNG, id=99, 364.9635pt x 89.73524pt>
+File: S2/loopExpansion.PNG Graphic file (type png)
+<use S2/loopExpansion.PNG>
+Package pdftex.def Info: S2/loopExpansion.PNG  used on input line 474.
+(pdftex.def)             Requested size: 364.9626pt x 89.735pt.
+<S2/architecturalSynthesis.PNG, id=100, 590.80725pt x 377.61075pt>
+File: S2/architecturalSynthesis.PNG Graphic file (type png)
+<use S2/architecturalSynthesis.PNG>
+Package pdftex.def Info: S2/architecturalSynthesis.PNG  used on input line 491.
+(pdftex.def)             Requested size: 590.8058pt x 377.60982pt.
+ [10 <./S2/modalExpansion.PNG> <./S2/conditionalExpansion.PNG> <./S2/loopExpansion.PNG> <./S2/architecturalSynthesis.PNG>]
+Overfull \hbox (30.0pt too wide) in paragraph at lines 498--527
+[][][] 
+ []
+
+[11]
+<S2/scheduledSequencingGraph.PNG, id=111, 498.06075pt x 352.9185pt>
+File: S2/scheduledSequencingGraph.PNG Graphic file (type png)
+<use S2/scheduledSequencingGraph.PNG>
+Package pdftex.def Info: S2/scheduledSequencingGraph.PNG  used on input line 584.
+(pdftex.def)             Requested size: 498.05952pt x 352.91763pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--590
+
+ []
+
+[12 <./S2/scheduledSequencingGraph.PNG>]
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+
+ []
+
+<S2/asapSchedule1.PNG, id=116, 498.06075pt x 324.0105pt>
+File: S2/asapSchedule1.PNG Graphic file (type png)
+<use S2/asapSchedule1.PNG>
+Package pdftex.def Info: S2/asapSchedule1.PNG  used on input line 624.
+(pdftex.def)             Requested size: 256.0748pt x 166.59288pt.
+<S2/asapSchedule2.PNG, id=117, 256.5585pt x 302.3295pt>
+File: S2/asapSchedule2.PNG Graphic file (type png)
+<use S2/asapSchedule2.PNG>
+Package pdftex.def Info: S2/asapSchedule2.PNG  used on input line 632.
+(pdftex.def)             Requested size: 199.16928pt x 234.7089pt.
+<S2/alap1.PNG, id=118, 293.898pt x 248.127pt>
+File: S2/alap1.PNG Graphic file (type png)
+<use S2/alap1.PNG>
+Package pdftex.def Info: S2/alap1.PNG  used on input line 642.
+(pdftex.def)             Requested size: 199.16928pt x 168.1524pt.
+<S2/alap2.png, id=119, 294.50024pt x 255.354pt>
+File: S2/alap2.png Graphic file (type png)
+<use S2/alap2.png>
+Package pdftex.def Info: S2/alap2.png  used on input line 648.
+(pdftex.def)             Requested size: 199.16928pt x 172.7033pt.
+<S2/alap3.PNG, id=120, 308.352pt x 239.6955pt>
+File: S2/alap3.PNG Graphic file (type png)
+<use S2/alap3.PNG>
+Package pdftex.def Info: S2/alap3.PNG  used on input line 657.
+(pdftex.def)             Requested size: 170.71652pt x 132.70705pt.
+
+Overfull \hbox (7.82684pt too wide) in paragraph at lines 657--659
+[][] 
+ []
+
+<S2/alap4.png, id=121, 287.27325pt x 244.5135pt>
+File: S2/alap4.png Graphic file (type png)
+<use S2/alap4.png>
+Package pdftex.def Info: S2/alap4.png  used on input line 663.
+(pdftex.def)             Requested size: 170.71652pt x 145.30638pt.
+
+Overfull \hbox (7.82684pt too wide) in paragraph at lines 663--665
+[][] 
+ []
+
+<S2/alap5.png, id=122, 297.5115pt x 244.5135pt>
+File: S2/alap5.png Graphic file (type png)
+<use S2/alap5.png>
+Package pdftex.def Info: S2/alap5.png  used on input line 669.
+(pdftex.def)             Requested size: 170.71652pt x 140.30687pt.
+
+Overfull \hbox (7.82684pt too wide) in paragraph at lines 669--671
+[][] 
+ []
+
+[13 <./S2/asapSchedule1.PNG> <./S2/asapSchedule2.PNG> <./S2/alap1.PNG> <./S2/alap2.PNG>]
+<S2/chaining.PNG, id=131, 462.528pt x 314.3745pt>
+File: S2/chaining.PNG Graphic file (type png)
+<use S2/chaining.PNG>
+Package pdftex.def Info: S2/chaining.PNG  used on input line 697.
+(pdftex.def)             Requested size: 462.52686pt x 314.37372pt.
+ [14 <./S2/alap3.PNG> <./S2/alap4.PNG> <./S2/alap5.PNG> <./S2/chaining.PNG>]
+<S2/bindingGraphExample.PNG, id=139, 523.35526pt x 393.8715pt>
+File: S2/bindingGraphExample.PNG Graphic file (type png)
+<use S2/bindingGraphExample.PNG>
+Package pdftex.def Info: S2/bindingGraphExample.PNG  used on input line 718.
+(pdftex.def)             Requested size: 523.35396pt x 393.87053pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--727
+
+ []
+
+[15 <./S2/bindingGraphExample.PNG>]
+<S2/binding1.PNG, id=144, 612.48825pt x 336.65775pt>
+File: S2/binding1.PNG Graphic file (type png)
+<use S2/binding1.PNG>
+Package pdftex.def Info: S2/binding1.PNG  used on input line 767.
+(pdftex.def)             Requested size: 612.48676pt x 336.6569pt.
+<S2/binding2.PNG, id=145, 551.05875pt x 325.215pt>
+File: S2/binding2.PNG Graphic file (type png)
+<use S2/binding2.PNG>
+Package pdftex.def Info: S2/binding2.PNG  used on input line 773.
+(pdftex.def)             Requested size: 341.43306pt x 201.50716pt.
+
+Overfull \hbox (17.06833pt too wide) in paragraph at lines 773--776
+[][] 
+ []
+
+<S2/complicatedControl.PNG, id=146, 569.12625pt x 392.667pt>
+File: S2/complicatedControl.PNG Graphic file (type png)
+<use S2/complicatedControl.PNG>
+Package pdftex.def Info: S2/complicatedControl.PNG  used on input line 780.
+(pdftex.def)             Requested size: 227.62204pt x 157.04604pt.
+
+Overfull \hbox (11.3844pt too wide) in paragraph at lines 780--782
+[][] 
+ []
+
+
+Overfull \hbox (29.99998pt too wide) in paragraph at lines 772--784
+[]$[]$ $[]$ 
+ []
+
+[16 <./S2/binding1.PNG> <./S2/binding2.PNG> <./S2/complicatedControl.PNG>]
+<S3/dataPathSynthesis.PNG, id=153, 569.7285pt x 367.97475pt>
+File: S3/dataPathSynthesis.PNG Graphic file (type png)
+<use S3/dataPathSynthesis.PNG>
+Package pdftex.def Info: S3/dataPathSynthesis.PNG  used on input line 810.
+(pdftex.def)             Requested size: 569.72711pt x 367.97385pt.
+<S3/controlPathSynthesis1.PNG, id=154, 449.2785pt x 377.61075pt>
+File: S3/controlPathSynthesis1.PNG Graphic file (type png)
+<use S3/controlPathSynthesis1.PNG>
+Package pdftex.def Info: S3/controlPathSynthesis1.PNG  used on input line 820.
+(pdftex.def)             Requested size: 449.27739pt x 377.60982pt.
+ [17 <./S3/dataPathSynthesis.PNG> <./S3/controlPathSynthesis1.PNG>]
+<S3/hardwiredFSM.PNG, id=160, 505.28775pt x 352.9185pt>
+File: S3/hardwiredFSM.PNG Graphic file (type png)
+<use S3/hardwiredFSM.PNG>
+Package pdftex.def Info: S3/hardwiredFSM.PNG  used on input line 832.
+(pdftex.def)             Requested size: 505.28651pt x 352.91763pt.
+<S3/horizontalMicrocode.PNG, id=161, 670.30424pt x 302.93175pt>
+File: S3/horizontalMicrocode.PNG Graphic file (type png)
+<use S3/horizontalMicrocode.PNG>
+Package pdftex.def Info: S3/horizontalMicrocode.PNG  used on input line 845.
+(pdftex.def)             Requested size: 670.30261pt x 302.931pt.
+<S3/verticalMicrocode.PNG, id=162, 560.0925pt x 320.99925pt>
+File: S3/verticalMicrocode.PNG Graphic file (type png)
+<use S3/verticalMicrocode.PNG>
+Package pdftex.def Info: S3/verticalMicrocode.PNG  used on input line 859.
+(pdftex.def)             Requested size: 560.09113pt x 320.99846pt.
+<S3/verticalMicrocodeGrouping.PNG, id=163, 555.2745pt x 351.714pt>
+File: S3/verticalMicrocodeGrouping.PNG Graphic file (type png)
+<use S3/verticalMicrocodeGrouping.PNG>
+Package pdftex.def Info: S3/verticalMicrocodeGrouping.PNG  used on input line 866.
+(pdftex.def)             Requested size: 555.27315pt x 351.71315pt.
+
+Overfull \hbox (14.23222pt too wide) in paragraph at lines 866--868
+[][] 
+ []
+
+
+Overfull \hbox (30.0pt too wide) in paragraph at lines 858--870
+[]$[]$ $[]$ 
+ []
+
+[18 <./S3/hardwiredFSM.PNG> <./S3/horizontalMicrocode.PNG> <./S3/verticalMicrocode.PNG> <./S3/verticalMicrocodeGrouping.PNG>] (./main.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 6940 strings out of 474103
+ 116990 string characters out of 5747481
+ 1939496 words of memory out of 5000000
+ 29237 multiletter control sequences out of 15000+600000
+ 565492 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,12n,79p,1227b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (18 pages, 2596999 bytes).
+PDF statistics:
+ 227 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+

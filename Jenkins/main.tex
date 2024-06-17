@@ -1,0 +1,52 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[fleqn, leqno]{mathtools} 
+\usepackage{textcomp}
+\usepackage{titling}
+\usepackage{subfig}
+\usepackage[parfill]{parskip}
+\usepackage{xcolor}
+\definecolor{LightGray}{gray}{0.9}
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+\usepackage[a4paper,left=1cm,right=1cm,top=1cm,bottom=1.5cm,]{geometry}
+\usepackage{eqparbox}
+\usepackage{enumitem}
+\usepackage{relsize}
+\usepackage{dsfont}
+\usepackage{hyperref}
+
+\newcommand*{\vertbar}{\rule[-1ex]{0.5pt}{2.5ex}}
+\newcommand*{\horzbar}{\rule[.5ex]{2.5ex}{0.5pt}}
+
+\makeatletter
+\newcommand{\leqnomode}{\tagsleft@true\let\veqno\@@leqno}
+\newcommand{\reqnomode}{\tagsleft@false\let\veqno\@@eqno}
+\makeatother
+
+\counterwithin*{equation}{section}
+\counterwithin*{equation}{subsection}
+\counterwithin*{equation}{subsubsection}
+
+\title{\vspace{-2cm} Jenkins Guide for Dummies}
+\date{\vspace{-5ex}}
+
+\begin{document}
+\maketitle
+
+\section{Jenkins on Windows running WSL2}
+Note that WSL2 \textit{should} already have Java installed. There is no need to install Java again on the WSL2 side.
+
+We can download the \textit{Jenkins Generic Java Package}, and run it using the \textbf{modified} command \textit{java.exe -jar jenkinswar --httpPort=8080}
+
+We will be setting up Jenkins using the classical UI method (no Docker images for us)
+
+\subsection{Error connecting to repo}
+Manage>Configure Tools>Git Installations>Path to Git executable
+
+Type \textit{which git} to find path of git executable
+
+Then, access on WSL2 via \textit{\textbackslash\textbackslash wsl\textbackslash Ubuntu} and navigate to that file
+
+\end{document}

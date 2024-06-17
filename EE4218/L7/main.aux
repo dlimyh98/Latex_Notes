@@ -1,0 +1,123 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}General introduction}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Introduction to Technology Mapping}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Types of technology mapping}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}(ASIC) cell library}{1}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Designer has the following cells to build upon}}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2}(FPGA) LUT-based cells}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.1.2.1}Multiplexer}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textit  {4-1} MUX, with associated truth table}}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.1.2.2}Constructing an LUT}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 2LUT  \textit  {Selection signals} are our \textit  {input addresses}}}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {0110} represents the \textbf  {output} of a particular truth table (ie. combinational function) that this 2LUT implements}}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces 4LUT}}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces 4LUT implemented with two 3LUT and a 2:1 MUX}}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.1.2.3}CLB}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Configurable Logic Block}}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.3}(FPGA) MUX-based cells}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.1.3.1}Tweaking the Multiplexer}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces \textit  {4-1} MUX}}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces 2-1 MUX}}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Expanded truth table.  Note that it is non-exhaustive, since we expect there to be $3^{3}$ possible combinations}}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.1.3.2}Shannon's decomposition theorem}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Shannon's decomposition theorem}}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces When $a=1, F_{a}$ is channeled to output  When $a=0, F_{\bar  {a}}$ is channeled to output}}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces We see a 'tree' of MUXes forming...}}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {2.1.3.3}Logic modules}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Implementation of combinational logic, using what Actel terms \textit  {ACT1 Logic Module}}}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Flow of Technology Mapping}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Logic Decomposition}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces \textit  {NAND2} and \textit  {INV} gates are popular choices for base primitives, since \textbf  {every} boolean function can be implemented with a \textbf  {combination} of them}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Decomposed library cells (of the IBM POWER4). We term these \textit  {Pattern Trees}}}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces \textit  {NAND4} gate may be decomposed in two different ways}}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Partioning}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Partioning algorithm}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Partitioned graph}}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Pattern Matching and Covering}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Structural Matching}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Possible matches (depending on which library cell we map to)}}{7}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Library cells available}}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Recursive algorithm for Structural Matching}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.1}Some definitions before we get started}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Vertex with degree=2}}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.2}Algorithm}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Recursive algorithm for matching}}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.3}Algorithm - Example 1}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Subject graph, with corresponding circuit}}{8}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Pattern graph, with corresponding circuit}}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.1.1.4}Algorithm - Example 2}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Subject network}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Cell Library}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces \textit  {INV} patterns}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces \textit  {NAND2} patterns}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces \textit  {AND2} patterns}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces \textit  {OR2} patterns}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces \textit  {NOR2} patterns}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces \textit  {NAND3} patterns}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces \textit  {OAI21} patterns}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces \textit  {AOI22} patterns}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces All patterns (superimposed)}}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Problems with Structural Matching}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Structural Matching works on trees only}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {5.2.1.1}Recap: Properties of trees}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces Not a tree. Node 4 has more than one parent.}}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces Circuits with fan-out nodes are an issue}}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces $A\oplus B = (A \cdot \bar  {B}) + (\bar  {A} \cdot B)$; Thus \textit  {XOR} gates require fan-out}}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Structural Matching has imperfect matching}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces $g = xy + \bar  {x}\bar  {y} + xz$}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces $f = xy + \bar  {x}\bar  {y} + \bar  {y}z$}}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Boolean Matching}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Boolean Matching - General ideas}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces Abstracted view of cluster and pattern functions}}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces There are many different ways (\textit  {permutations}) to connect $\{x_{1}, \dots  ,x_{n}\}$ with $\{y_{1}, \dots  , y_{n}\}$. We need to examine all permutations to find if logical equivalence exists (and if so, under which case is it mapping is it optimal?)}}{13}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces One possible connection might be this.  Note that $y_{1}$ of pattern function does not correspond to $x_{1}$ of cluster function}}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Equivalence of functions}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Permutation of input variables}{14}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {44}{\ignorespaces Can desired functionality be implemented with library cell?}}{14}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {45}{\ignorespaces One possible permutation that is valid}}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}Negation of input variables}{14}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {46}{\ignorespaces We cannot directly connect cluster variables to pattern variables now}}{14}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {47}{\ignorespaces However, taking $\bar  {Q}$ from the input FF solves our problems}}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.3}Negation of output variables}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.4}Summary}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Boolean Signatures}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Example of boolean signatures}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.1}Function symmetry}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {7.1.2}Number of unate/binate variables}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Summary}{16}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {48}{\ignorespaces Flowchart}}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}Covering}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Covering of trees and DAGs}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.1.1}Trees}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {49}{\ignorespaces Cell Library}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {50}{\ignorespaces Subject graph \textbf  {with no fanout nodes}}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {51}{\ignorespaces Trivial covering}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {52}{\ignorespaces Better covering}}{17}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {53}{\ignorespaces Even better covering}}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.1.2}DAGs}{18}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {54}{\ignorespaces \textit  {XOR} gate}}{18}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {55}{\ignorespaces \textit  {XOR} gate representation - DAG}}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {8.1.2.1}Treeifying}{18}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {56}{\ignorespaces DAG is now transformed into a collection of subnetworks, where each subnetwork is a tree}}{18}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {57}{\ignorespaces DAG ($\exists $ route between leaf(input) to \textbf  {two} roots(outputs))}}{18}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {58}{\ignorespaces Logic at fan-out node is duplicated}}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Optimal tree covering using Dynamic Programming}{19}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {8.2.1}DP example}{19}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {59}{\ignorespaces Subject and Pattern trees}}{19}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {60}{\ignorespaces Optimally cover the Subject tree using Pattern trees  Approach this using DP (Memoization)}}{19}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {9}Technology Mapping on FPGAs}{20}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.1}How to do matching with LUTs?}{20}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.1.1}LUT Matching - Example}{20}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {61}{\ignorespaces \textit  {NAND} truth table}}{20}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {62}{\ignorespaces Notice that $x_{3}$ and $x_{4}$ inputs are 'useless'}}{20}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {63}{\ignorespaces LUT-mask of 4LUT}}{20}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Mapping and Covering on FPGAs}{21}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {64}{\ignorespaces We require 3 \textit  {5LUT}s or 6 \textit  {3LUT}s to map \& cover this circuit  Notice that a \textit  {5LUT} can implement a \textit  {4LUT}, one of the inputs will just be 'X'}}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Bin Packing}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {9.3.1}Modified Bin Packing (Heuristic algorithm)}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {9.3.1.1}Modified Bin Packing - Example}{22}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {65}{\ignorespaces Modified Bin Packing}}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.4}CLB packing}{22}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {66}{\ignorespaces Logic Block  Observe that the LUTs can share inputs as well}}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.5}Summary}{23}{}\protected@file@percent }
+\gdef \@abspage@last{23}
